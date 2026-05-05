@@ -1,0 +1,36 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#082F49"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="120" y1="120" x2="1080" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B2235"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="178" y1="490" x2="1020" y2="490" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#FCD34D"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" rx="24" fill="url(#bg)"/>
+  <circle cx="1045" cy="128" r="146" fill="#22D3EE" fill-opacity="0.2"/>
+  <circle cx="136" cy="678" r="182" fill="#FBBF24" fill-opacity="0.12"/>
+
+  <rect x="120" y="110" width="960" height="580" rx="30" fill="url(#panel)" stroke="#334155"/>
+  <rect x="160" y="160" width="430" height="22" rx="11" fill="#1E293B"/>
+  <rect x="160" y="197" width="300" height="14" rx="7" fill="#1E293B"/>
+
+  <rect x="160" y="250" width="370" height="210" rx="18" fill="#111827" stroke="#334155"/>
+  <rect x="548" y="250" width="492" height="56" rx="12" fill="#111827" stroke="#334155"/>
+  <rect x="548" y="319" width="492" height="141" rx="12" fill="#111827" stroke="#334155"/>
+
+  <rect x="178" y="488" width="842" height="150" rx="20" fill="url(#accent)" fill-opacity="0.15" stroke="#22D3EE"/>
+  <text x="214" y="548" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="700">
+    NEXT.JS STUDIO AGENCY
+  </text>
+  <text x="214" y="592" fill="#BFDBFE" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="500">
+    Responsive Digital Agency Experience
+  </text>
+</svg>

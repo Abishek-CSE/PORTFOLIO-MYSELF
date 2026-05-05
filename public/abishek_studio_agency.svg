@@ -1,0 +1,37 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="1200" y1="0" x2="0" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="251" y1="80" x2="879" y2="701" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" rx="24" fill="url(#bg)"/>
+  <circle cx="1032" cy="110" r="180" fill="#8B5CF6" fill-opacity="0.2"/>
+  <circle cx="180" cy="680" r="210" fill="#06B6D4" fill-opacity="0.16"/>
+
+  <rect x="120" y="110" width="960" height="580" rx="26" fill="#0B1220" stroke="#334155"/>
+  <rect x="162" y="160" width="520" height="24" rx="12" fill="#1E293B"/>
+  <rect x="162" y="200" width="400" height="16" rx="8" fill="#1E293B"/>
+
+  <rect x="162" y="252" width="330" height="190" rx="18" fill="#111827" stroke="#334155"/>
+  <rect x="524" y="252" width="514" height="68" rx="14" fill="#111827" stroke="#334155"/>
+  <rect x="524" y="334" width="514" height="108" rx="14" fill="#111827" stroke="#334155"/>
+
+  <rect x="162" y="468" width="876" height="140" rx="18" fill="url(#accent)" fill-opacity="0.12" stroke="#6366F1"/>
+  <text x="194" y="528" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="700">
+    ABISHEK STUDIO AGENCY
+  </text>
+  <text x="194" y="572" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="500">
+    Next.js Digital Agency Website
+  </text>
+
+  <rect x="798" y="536" width="208" height="44" rx="22" fill="#7C3AED"/>
+  <text x="836" y="565" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">
+    Live Demo
+  </text>
+</svg>

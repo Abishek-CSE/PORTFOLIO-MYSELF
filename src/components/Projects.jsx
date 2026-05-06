@@ -8,14 +8,14 @@ const projectsData = [
         tag: 'Next.js',
         desc: 'Modern digital agency platform with responsive layouts, smooth UI interactions, and structured service-focused pages.',
         tech: ['Next.js', 'Tailwind CSS', 'Vercel'],
-        image: '/nextjs-studio-preview.svg',
+        image: '/abishek_studio.png',
         github: 'https://github.com/Abishek-CSE/ABISHEK_STUDIO_AGENCY',
         demo: 'https://abishek-studio-agency-q436.vercel.app/',
         gradient: 'from-blue-500/20 to-cyan-500/20'
     },
     {
         title: 'Cricket E-Commerce',
-        tag: 'React',
+        tag: 'Front End',
         desc: 'Responsive cricket e-commerce platform with dynamic UI rendering and state management using React hooks.',
         tech: ['React', 'Hooks', 'Tailwind CSS'],
         image: '/cricket_store.png',
@@ -42,6 +42,36 @@ const projectsData = [
         github: 'https://github.com/Abishek-CSE/SKILL-SHARING-PLATFORM---SKILLBAR',
         demo: 'https://skill-sharing-platform-skillbar.vercel.app/',
         gradient: 'from-cyan-500/20 to-blue-500/20'
+    },
+    {
+        title: 'Inside Chennai',
+        tag: 'Front End',
+        desc: 'Interactive webpage exploring Chennai built using Bootstrap, HTML, CSS, and JavaScript DOM manipulation.',
+        tech: ['Bootstrap', 'HTML', 'CSS', 'JavaScript'],
+        image: '/inside_chennai.png',
+        github: 'https://github.com/Abishek-CSE/INSIDE-CHENNAI-WEBPAGE-USING-BOOTSTRAP',
+        demo: 'https://abishek-cse.github.io/INSIDE-CHENNAI-WEBPAGE-USING-BOOTSTRAP/',
+        gradient: 'from-orange-500/20 to-yellow-500/20'
+    },
+    {
+        title: 'Netflix Clone',
+        tag: 'Front End',
+        desc: 'A responsive Netflix clone featuring a modern, sleek UI with movie thumbnails and a hero banner.',
+        tech: ['React', 'HTML', 'CSS', 'JavaScript'],
+        image: '/netflix_clone.png',
+        github: 'https://github.com/Abishek-CSE/NETFLIX-CLONE-',
+        demo: 'https://vercel.com/abishek-cses-projects/netflix-clone',
+        gradient: 'from-red-500/20 to-pink-500/20'
+    },
+    {
+        title: 'Tamil Traditional Books',
+        tag: 'Front End',
+        desc: 'A beautiful and interactive webpage dedicated to showcasing and preserving traditional Tamil books and ancient literature.',
+        tech: ['HTML', 'CSS', 'JavaScript'],
+        image: '/tamil_books.png',
+        github: 'https://github.com/Abishek-CSE/TAMIL-TRADITIONAL-BOOKS-WEBPAGE',
+        demo: 'https://abishek-cse.github.io/TAMIL-TRADITIONAL-BOOKS-WEBPAGE/',
+        gradient: 'from-amber-500/20 to-yellow-600/20'
     }
 ];
 

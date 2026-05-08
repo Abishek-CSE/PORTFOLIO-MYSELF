@@ -96,7 +96,7 @@ const Hero = () => {
                             that not only look great but also deliver exceptional performance.
                         </p>
                         <div className="flex items-center gap-2 text-sm text-slate-500 font-mono">
-                            <span className="text-green-400">●</span> 2+ projects completed
+                            <span className="text-green-400">●</span> 5+ projects completed
                             <span className="text-slate-600 mx-1">|</span>
                             <span className="text-blue-400">always learning</span>
                         </div>
@@ -232,6 +232,8 @@ const Hero = () => {
                                             <span className="text-slate-400">: [</span>
                                             <span className="text-orange-400">'React'</span>
                                             <span className="text-slate-400">, </span>
+                                            <span className="text-orange-400">'React Native'</span>
+                                            <span className="text-slate-400">, </span>
                                             <span className="text-orange-400">'Node.js'</span>
                                             <span className="text-slate-400">, </span>
                                             <span className="text-orange-400">'MongoDB'</span>
@@ -258,7 +260,7 @@ const Hero = () => {
 
                                 {/* Tech Stack Tags */}
                                 <div className="flex flex-wrap gap-1.5 mt-4 pt-3 border-t border-slate-800">
-                                    {['React', 'Next.js', 'Node.js', 'Tailwind'].map((tech, i) => (
+                                    {['React', 'React Native', 'Next.js', 'Node.js', 'Tailwind', 'Bootstrap', 'Vercel', 'Firebase', 'Figma'].map((tech, i) => (
                                         <span key={i} className="text-[10px] px-2 py-1 rounded-full bg-slate-800 text-cyan-300 border border-slate-700">
                                             {tech}
                                         </span>

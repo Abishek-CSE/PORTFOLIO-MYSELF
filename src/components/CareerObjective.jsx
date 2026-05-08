@@ -4,8 +4,7 @@ import { User, Code2, Sparkles, Heart, Zap, Coffee, Rocket, Globe, Wifi, Battery
 
 const CareerObjective = () => {
     const stats = [
-        { value: '15+', label: 'Projects', icon: Code2, color: 'from-blue-500 to-cyan-500', detail: 'Completed' },
-        { value: '1+', label: 'Years Exp', icon: Zap, color: 'from-teal-500 to-cyan-500', detail: 'Full-Stack' },
+        { value: '5+', label: 'Projects', icon: Code2, color: 'from-blue-500 to-cyan-500', detail: 'Completed' },
         { value: '24/7', label: 'Learning', icon: Coffee, color: 'from-blue-500 to-teal-500', detail: 'Continuous' }
     ];
 
@@ -18,9 +17,12 @@ const CareerObjective = () => {
 
     const skills = [
         { name: 'React.js', level: 90, color: 'blue' },
+        { name: 'React Native', level: 82, color: 'cyan' },
+        { name: 'Next.js', level: 85, color: 'blue' },
         { name: 'Node.js', level: 85, color: 'cyan' },
         { name: 'MongoDB', level: 80, color: 'teal' },
-        { name: 'Tailwind CSS', level: 88, color: 'blue' }
+        { name: 'Tailwind CSS', level: 88, color: 'blue' },
+        { name: 'Bootstrap', level: 85, color: 'cyan' }
     ];
 
     return (

@@ -228,7 +228,10 @@ const Projects = () => {
                                 transition={{ duration: 0.3 }}
                                 onMouseEnter={() => setHoveredCard(index)}
                                 onMouseLeave={() => setHoveredCard(null)}
-                                className="group relative"
+                                onClick={() => {
+                                    window.dispatchEvent(new CustomEvent('open-project-modal', { detail: project }));
+                                }}
+                                className="group relative cursor-pointer"
                             >
                                 {/* Safari Browser Card */}
                                 <div className="flex items-center gap-2 px-3 py-1.5 bg-slate-800/50 backdrop-blur-xl rounded-t-xl border border-slate-700 border-b-0">
@@ -267,31 +270,19 @@ const Projects = () => {
                                         </div>
 
                                         {/* Action Buttons Overlay - iOS Style */}
-                                        <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center gap-4">
-                                            <motion.a
-                                                whileHover={{ scale: 1.1, y: -2 }}
+                                        {/* Action Buttons Overlay - iOS Style */}
+                                        <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center">
+                                            <motion.div
+                                                whileHover={{ scale: 1.05 }}
                                                 whileTap={{ scale: 0.95 }}
-                                                href={project.github}
-                                                target="_blank"
-                                                rel="noreferrer"
-                                                className="p-2.5 bg-slate-900 rounded-full hover:bg-slate-800 transition-all border border-slate-700"
-                                                onClick={(e) => e.stopPropagation()}
+                                                className="px-6 py-3 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 text-white font-bold flex items-center gap-2"
                                             >
-                                                <Github size={18} className="text-white" />
-                                            </motion.a>
-                                            <motion.a
-                                                whileHover={{ scale: 1.1, y: -2 }}
-                                                whileTap={{ scale: 0.95 }}
-                                                href={project.demo}
-                                                target="_blank"
-                                                rel="noreferrer"
-                                                className="p-2.5 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full hover:from-blue-600 hover:to-cyan-600 transition-all shadow-lg shadow-blue-500/25"
-                                                onClick={(e) => e.stopPropagation()}
-                                            >
-                                                <ExternalLink size={18} className="text-white" />
-                                            </motion.a>
+                                                <Eye size={18} className="text-cyan-400" />
+                                                Explore Project
+                                            </motion.div>
                                         </div>
                                     </div>
+
 
                                     {/* Content Section */}
                                     <div className="p-5">

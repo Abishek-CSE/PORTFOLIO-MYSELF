@@ -200,7 +200,7 @@ const Education = () => {
                     {[
                         { label: 'Years of Study', value: '7+', icon: GraduationCap, color: 'from-blue-500 to-cyan-500', detail: 'Continuous Learning' },
                         { label: 'Achievements', value: '12+', icon: Award, color: 'from-teal-500 to-cyan-500', detail: 'Academic Excellence' },
-                        { label: 'Projects', value: '15+', icon: Star, color: 'from-blue-500 to-teal-500', detail: 'Portfolio Work' }
+                        { label: 'Projects', value: '5+', icon: Star, color: 'from-blue-500 to-teal-500', detail: 'Portfolio Work' }
                     ].map((stat, idx) => (
                         <motion.div
                             key={idx}
